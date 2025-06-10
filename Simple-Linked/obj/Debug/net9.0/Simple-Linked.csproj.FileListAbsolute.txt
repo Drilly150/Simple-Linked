@@ -1,0 +1,14 @@
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\bin\Debug\net9.0\Simple-Linked.exe
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\bin\Debug\net9.0\Simple-Linked.deps.json
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\bin\Debug\net9.0\Simple-Linked.runtimeconfig.json
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\bin\Debug\net9.0\Simple-Linked.dll
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\bin\Debug\net9.0\Simple-Linked.pdb
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.AssemblyInfoInputs.cache
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.AssemblyInfo.cs
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.csproj.CoreCompileInputs.cache
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.dll
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\refint\Simple-Linked.dll
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.pdb
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\Simple-Linked.genruntimeconfig.cache
+C:\Users\luisa\Desktop\Simple-Linked\Simple-Linked\obj\Debug\net9.0\ref\Simple-Linked.dll
