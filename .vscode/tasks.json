@@ -7,7 +7,7 @@
       "command": "dotnet", 
       "args": [
         "build",
-        "${workspaceFolder}/SimpleLinkedWinForms.csproj",
+        "${workspaceFolder}/Simple-Linked/Simple-Linked.csproj",
         "/p:Configuration=Release"
       ],
       "problemMatcher": "$msCompile",
