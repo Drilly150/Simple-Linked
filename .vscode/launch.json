@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Simple Linked List (Debug)", //Dentro del parentesis, hace referencia a la carpeta en donde se encuentra el net "9.0"
+      "name": "Simple Linked (Debug)", //Dentro del parentesis, hace referencia a la carpeta en donde se encuentra el net "9.0"
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
