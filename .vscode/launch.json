@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Simple Linked List (Release)",
+      "name": "Simple Linked List (Debug)", //Dentro del parentesis, hace referencia a la carpeta en donde se encuentra el net "9.0"
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/bin/Release/net9.0-windows/SimpleLinkedWinForms.exe", // Asegúrate de que esta ruta sea correcta
+      "program": "${workspaceFolder}/bin/Debug/net9.0/Simple-Linked.exe", 
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
@@ -15,4 +15,4 @@
   ]
 }
 
-//Archivo de configuración para lanzar el proyecto desde Visual Studio Code. Define cómo se ejecuta "SimpleLinkedWindForms.exe". 
+//Archivo de configuración para lanzar el proyecto desde Visual Studio Code. Define cómo se ejecuta "Simple-Linked.exe". 
