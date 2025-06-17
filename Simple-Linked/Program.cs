@@ -74,7 +74,7 @@ public class Program
             string? password = Console.ReadLine(); // Puede ser null
 
             // Ejemplo de credenciales simples
-            if (usuario == "Estudiante" && password == "123456")
+            if (usuario == "Vendedor" && password == "123456")
             {
                 return true;
             }
@@ -92,13 +92,27 @@ public class Program
         listaClientes.Agregar(new Cliente { IdCliente = "CLI001", Nombre = "Juan", Apellido = "Pérez", Telefono = "123456789", Email = "juan@example.com" });
         listaClientes.Agregar(new Cliente { IdCliente = "CLI002", Nombre = "María", Apellido = "Gómez", Telefono = "987654321", Email = "maria@example.com" });
         listaClientes.Agregar(new Cliente { IdCliente = "CLI003", Nombre = "Carlos", Apellido = "Rodríguez", Telefono = "555112233", Email = "carlos@example.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI004", Nombre = "Ana", Apellido = "García", Telefono = "04123456789", Email = "ana.garcia@email.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI005", Nombre = "Luis", Apellido = "Pérez", Telefono = "04249876543", Email = "luis.perez@email.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI006", Nombre = "Pedro", Apellido = "González", Telefono = "04145566778", Email = "pedro.g@email.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI007", Nombre = "Sofía", Apellido = "Hernández", Telefono = "04269988776", Email = "sofia.h@email.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI008", Nombre = "Diego", Apellido = "Sánchez", Telefono = "04128877665", Email = "diego.s@email.com" });
+        listaClientes.Agregar(new Cliente { IdCliente = "CLI009", Nombre = "Valeria", Apellido = "Torres", Telefono = "04243344556", Email = "valeria.t@email.com" });
 
         // Productos de ejemplo (asegúrate de que las propiedades 'required' estén inicializadas)
         listaProductos.Agregar(new Producto { IdProducto = "PROD001", Nombre = "Laptop Dell XPS", Precio = 1200.00, Stock = 50 });
         listaProductos.Agregar(new Producto { IdProducto = "PROD002", Nombre = "Teclado Mecánico RGB", Precio = 85.50, Stock = 120 });
         listaProductos.Agregar(new Producto { IdProducto = "PROD003", Nombre = "Monitor Curvo 27 pulgadas", Precio = 350.00, Stock = 75 });
         listaProductos.Agregar(new Producto { IdProducto = "PROD004", Nombre = "Mouse Inalámbrico", Precio = 25.00, Stock = 200 });
-
+        listaProductos.Agregar(new Producto { IdProducto = "PROD005", Nombre = "Smartphone Galaxy S25", Precio = 950.00, Stock = 25 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD006", Nombre = "Auriculares Inalámbricos", Precio = 150.50, Stock = 150 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD007", Nombre = "Smartwatch FitPro", Precio = 280.00, Stock = 20 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD008", Nombre = "Mouse Gaming HyperX", Precio = 60.00, Stock = 30 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD009", Nombre = "Impresora Multifuncional", Precio = 220.00, Stock = 18 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD010", Nombre = "Disco Duro Externo 2TB", Precio = 80.00, Stock = 35 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD011", Nombre = "Webcam Full HD", Precio = 45.00, Stock = 60 });
+        listaProductos.Agregar(new Producto { IdProducto = "PROD012", Nombre = "Rod Strix 6700XT", Precio = 400.00, Stock = 10 });
+        
         // Pedidos de ejemplo
         var pedido1 = new Pedido { IdPedido = 1, IdCliente = "CLI001", Fecha = DateTime.Now };
         pedido1.Detalles.Agregar(new DetallePedido { IdProducto = "PROD001", NombreProducto = "Laptop Dell XPS", Cantidad = 1, PrecioUnitario = 1200.00 });
@@ -109,6 +123,11 @@ public class Program
         pedido2.Detalles.Agregar(new DetallePedido { IdProducto = "PROD003", NombreProducto = "Monitor Curvo 27 pulgadas", Cantidad = 1, PrecioUnitario = 350.00 });
         pedido2.Detalles.Agregar(new DetallePedido { IdProducto = "PROD004", NombreProducto = "Mouse Inalámbrico", Cantidad = 3, PrecioUnitario = 25.00 });
         listaPedidos.Agregar(pedido2);
+
+        var pedido3 = new Pedido { IdPedido = 3, IdCliente = "CLI008", Fecha = DateTime.Now.AddDays(-5) };
+        pedido3.Detalles.Agregar(new DetallePedido { IdProducto = "PROD009", NombreProducto = "Impresora Multifuncional", Cantidad = 1, PrecioUnitario = 220.00 });
+        pedido3.Detalles.Agregar(new DetallePedido { IdProducto = "PROD001", NombreProducto = "Laptop Dell XPS", Cantidad = 1, PrecioUnitario = 1200.00 });
+        listaPedidos.Agregar(pedido3);
     }
 
     static void MenuClientes()
